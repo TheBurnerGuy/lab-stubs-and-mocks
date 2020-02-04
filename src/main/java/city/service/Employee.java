@@ -15,4 +15,8 @@ public class Employee {
         this.salary = salary;
         this.address = address;
     }
+
+    public Address getAddress() {
+        return address;
+    }
 }

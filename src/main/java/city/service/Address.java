@@ -11,4 +11,8 @@ public class Address {
         this.address = address;
         this.city = city;
     }
+
+    public String getCity() {
+        return city;
+    }
 }
